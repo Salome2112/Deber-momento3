@@ -2,12 +2,12 @@
 'use strict'
 function numbers(nums) {
     for (let i = 0; i < nums.length; i++) {
-        let row = '';
+        let number = '';
         for (let j = i + 1; j < nums.length; j++) {
-            row += nums[i] + '' + nums[j] + ' ';
+            number+= nums[i] + '' + nums[j] + ' ';
         }
-        if (row !== '') {
-            alert(row.trim());
+        if (number !== '') {
+            alert(number.trim());
         }
     }
 }
